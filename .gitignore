@@ -1,2 +1,3 @@
-/ShakespeareXML
-/.ftpconfig
+ShakespeareXML/
+.ftpconfig
+Makefile
