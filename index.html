@@ -17,21 +17,41 @@
   <header>
     <h1>zipNYC</h1>
     <p>get NYC demographic information by zipcode</p>
+
   </header>
 
+
   <article>
+    <p style="text-align:center;">Enter a zipcode in the range 10001-13731.</p>
+    <div class="input-group lg-3 mx-auto" style="width: 150px;">
+      <input id="search" type="number" min="10001" max="13731" class="form-control" placeholder="Zip">
+      <div class="input-group-append">
+        <button id="search-btn" class="btn btn-outline-secondary" type="button">Go</button>
+      </div>
+    </div>
+
+
+    <div id="results">
+
+
+
+    </div>
 
   </article>
 
 
   <footer>
 
+  <p>Dataset from</p>
+  <a href="https://data.cityofnewyork.us/City-Government/Demographic-Statistics-By-Zip-Code/kku6-nxdu" target="_blank"><img src="https://data.cityofnewyork.us/api/assets/3FF54443-CD9C-4E56-8A20-8D2BD245BD1A?nyclogo300.png" class="img-responsive" width="200px;" style="margin-top:-40px;"/></a>
+
+  <p>Created by Miles Shebar for SCMP368</p>
   </footer>
 
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="script.js"></script>
