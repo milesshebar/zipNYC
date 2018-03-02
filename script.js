@@ -33,10 +33,10 @@ function getInfo() {
           $("#results").append("<span class='data'>" + participants + "</span> people were surveyed<br><br>");
           $("#results").append("<span class='data'>" + percentMale + "%</span> of the population is male<br>");
           $("#results").append("<span class='data'>" + percentFemale + "%</span> of the population is female<br><br>");
+          $("#results").append("<span class='data'>" + percentAsian + "%</span> identified as Asian<br>");
           $("#results").append("<span class='data'>" + percentPacificIs + "%</span> identified as Pacitic Islander<br>");
           $("#results").append("<span class='data'>" + percentHispanicLatino + "%</span> identified as Hispanic/Latinx<br>");
           $("#results").append("<span class='data'>" + percentAmerIndian + "%</span> identified as Native American<br>");
-          $("#results").append("<span class='data'>" + percentAsian + "%</span> identified as Asian<br>");
           $("#results").append("<span class='data'>" + percentWhite + "%</span> of the population identified as White<br>");
           $("#results").append("<span class='data'>" + percentBlack + "%</span> of the population identified as Black<br>");
           $("#results").append("<span class='data'>" + percentOther + "%</span> of the population identified as Other<br><br>");
