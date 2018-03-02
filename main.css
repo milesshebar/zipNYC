@@ -1,4 +1,31 @@
 header {
   text-align: center;
-  padding: 10px;
+  margin-top: 20px;
+}
+
+header p {
+  margin-top: -10px;
+}
+
+
+
+.data {
+  color: green;
+  font-size: 1.2em;
+}
+
+.datazip {
+  color: red;
+  font-size: 2em;
+}
+
+#results {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 30px;
+
+}
+
+footer {
+  text-align: center;
 }
