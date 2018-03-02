@@ -1,8 +1,10 @@
+//document ready function to handle button click event
 $(document).ready(function() {
   console.log("start!");
   $("#search-btn").click(getInfo);
 });
 
+//function that imports xml, uses user keyword to find zipcode stats, and appends them to the HTML
 function getInfo() {
   $("#results").empty();
   $.ajax({
@@ -25,9 +27,6 @@ function getInfo() {
         var percentUSCitizen = ($(this).find('percent_us_citizen').text() * 100).toFixed(0);
         var percentPermanentResident = ($(this).find('percent_permanent_resident_alien').text() * 100).toFixed(0);
         var percentRecievesPublicAssistance = ($(this).find('percent_receives_public_assistance').text() * 100).toFixed(0);
-
-
-
 
         if ($('#search').val() == zip) {
           $("#results").append("<p><span class='datazip'> " + zip + "</span><br>");
